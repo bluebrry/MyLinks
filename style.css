@@ -1,24 +1,35 @@
 body{
-  background: rgb(0, 0, 0);
-  background-image: url("https://lh3.googleusercontent.com/17DgvcboK0H-vlww7MoeBPCm35IGDAevM4zmGhsYCHELHZnc6uRXvfI1akdbbi2ya8KiMJrFcxpXOyq6LIjhIrd8NAahu6FO1UGB4mdp5BLDgofWQxzO739PWvVFeFi5r5fNnQEta7Xu75YOiWo_JY7yvyWKl3Hr6pGkphx9gDhe12hjQuETGnBeaC6j8RSjN9--lcytB4KkeH_E24vZlW08Hh2Z9OXia3-06OrIp0l0y8sP8Cay3J8C3v-WU0MTrOZ4hpMqidwxPrhzW3ZU8GC3Rx53SekdkIFR8k4eZXK1Ag_MdXFPFUbwXZjQshIAfWkUIXxecxjJJNKw-GxdGnj6ZpGyV1FvorSBml4rJu9Ut4gYa9DggTcDJtPG_-yufExX6aJBqfgfu-h1niQ-wtv33jMvusiAJHBl1C6puZSfymJ4FEJTJs7a5KRqpzC-MByyY9qZbgnalvv6wA20gpHL28dcRt0ojjoP0kxwfDJLuy0V4EDXb6MEF932w0jR1yGh_vEAdBZZcvypbwk5YnCLZM3q2oB7oOVL1wzmZ42Wuh218Spb743K7BtfaUcg7A2OJ5qUppoQYYt8UHVdZq0UwuKLpeyk6gSTPQ6bx_1UhwWRKVktYi91W9CPsLBtXp9UeaYqtjkVaGBGFpFeXoEuyIG5LcQvj0jSy5un2aTYIxbz0mIJYmTdL6904lh5PVmybb8jW08-yxmYAuwfz9GN=w1746-h1198-no?authuser=0");
+  background: black;
+  //background-image: url("https://lh3.googleusercontent.com/17DgvcboK0H-vlww7MoeBPCm35IGDAevM4zmGhsYCHELHZnc6uRXvfI1akdbbi2ya8KiMJrFcxpXOyq6LIjhIrd8NAahu6FO1UGB4mdp5BLDgofWQxzO739PWvVFeFi5r5fNnQEta7Xu75YOiWo_JY7yvyWKl3Hr6pGkphx9gDhe12hjQuETGnBeaC6j8RSjN9--lcytB4KkeH_E24vZlW08Hh2Z9OXia3-06OrIp0l0y8sP8Cay3J8C3v-WU0MTrOZ4hpMqidwxPrhzW3ZU8GC3Rx53SekdkIFR8k4eZXK1Ag_MdXFPFUbwXZjQshIAfWkUIXxecxjJJNKw-GxdGnj6ZpGyV1FvorSBml4rJu9Ut4gYa9DggTcDJtPG_-yufExX6aJBqfgfu-h1niQ-wtv33jMvusiAJHBl1C6puZSfymJ4FEJTJs7a5KRqpzC-MByyY9qZbgnalvv6wA20gpHL28dcRt0ojjoP0kxwfDJLuy0V4EDXb6MEF932w0jR1yGh_vEAdBZZcvypbwk5YnCLZM3q2oB7oOVL1wzmZ42Wuh218Spb743K7BtfaUcg7A2OJ5qUppoQYYt8UHVdZq0UwuKLpeyk6gSTPQ6bx_1UhwWRKVktYi91W9CPsLBtXp9UeaYqtjkVaGBGFpFeXoEuyIG5LcQvj0jSy5un2aTYIxbz0mIJYmTdL6904lh5PVmybb8jW08-yxmYAuwfz9GN=w1746-h1198-no?authuser=0");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 
 div {
-  width: 400px;
+  width: 600px;
   margin-top: 10%;
-  border-radius: 10px;
 }
 
-a{
-text-decoration: none;
-color: rgb(83, 83, 83);
+a { 
+  background: rgb(22, 22, 22);
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  display: inline;
+  padding: 35px;
+  margin: 10px;
+  border-radius: 100%;
 }
 
-p{
+.circle{
+  padding: 35px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*p{
   width: 420px;
   color: rgb(129, 129, 129);
   background: pink;
@@ -27,11 +38,11 @@ p{
   font-size: 20px;
   font-family: "Lucida Console", "Courier New", monospace;
   letter-spacing: 1px;
-}
+}*/
 
 a:hover{
-color: rgb(95, 95, 95);
-background: black;
+color: rgb(255, 255, 255);
+background: rgb(255, 255, 255);
 }
 
 p:hover{
@@ -41,10 +52,10 @@ background: black;
 
 #insta {
   margin-bottom: -10px;
-  filter: grayscale(100%);
+  //filter: grayscale(100%);
 }
 
 #pix {
   margin-bottom: -5px;
-  filter: grayscale(100%);
+  //filter: grayscale(100%);
 }
